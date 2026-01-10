@@ -5,6 +5,11 @@ The system is built using **React + Node.js + Express + MongoDB + Socket.io** wi
 
 ---
 
+## use this
+Email: demo@foodapp.com
+Password: Demo@123
+Role: User
+
 ## 🧠 Key Features
 
 ### 👤 **User**
