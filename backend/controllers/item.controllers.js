@@ -78,7 +78,7 @@ export const getItemById = async (req, res) => {
   } catch (error) {
     return res.status(500).json({ message: `get item error ${error}` });
   }
-};
+}
 
 export const deleteItem = async (req, res) => {
   try {
@@ -131,7 +131,7 @@ export const getItemsByShop = async (req, res) => {
     return res.status(200).json({
       shop,
       items: shop.items,
-    });
+    })
   } catch (error) {
     return res.status(500).json({ message: `get item by shop error ${error}` });
   }
@@ -162,7 +162,8 @@ export const searchItems = async (req, res) => {
   } catch (error) {
     return res.status(500).json({ message: `search item  error ${error}` });
   }
-};
+}
+
 
 export const rating = async (req, res) => {
   try {
