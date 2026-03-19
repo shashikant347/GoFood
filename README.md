@@ -130,11 +130,6 @@ Authentication is powered by **Firebase Authentication**, enabling:
 - Receives real-time notification  
 - Marks status: `Picked`, `On the way`, `Reached`  
 
-### 4️⃣ **User tracks order live**  
-- Socket updates instantly push new status  
-- Optionally location tracking (if enabled)
-
----
 
 ## 📁 Folder Structure
 GoFood/
