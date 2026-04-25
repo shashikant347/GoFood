@@ -43,21 +43,6 @@ Role: User
 
 ---
 
-## 🛰️ System Workflow
-
-### 1️⃣ **User places an order**  
-- Order gets stored in MongoDB  
-- Backend emits a **socket event** `orderPlaced` to Owner panel  
-
-### 2️⃣ **Owner updates order status**  
-- Owner dashboard updates order:  
-  `received → preparing → packed → out for delivery → delivered`  
-- Each update emits **socket event → User dashboard**  
-
-### 3️⃣ **Delivery Boy accepts order**  
-- Receives real-time notification  
-- Marks status: `Picked`, `On the way`, `Reached`  
-
 
 ## 📁 Folder Structure
 GoFood/
