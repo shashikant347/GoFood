@@ -15,17 +15,6 @@ Role: User
 
 ## 📦 Packages Used
 
-### **Frontend Packages**
-| Package | Purpose |
-|--------|---------|
-| `react` | UI library |
-| `react-router-dom` | Routing |
-| `axios` | API calls |
-| `socket.io-client` | Real-time updates |
-| `firebase` | Google Login |
-| `tailwindcss` | UI styling |
-| `zustand / redux-toolkit` | State management |
-| `react-icons` | Icons |
 
 ### **Backend Packages**
 | Package | Purpose |
